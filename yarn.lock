@@ -21,6 +21,11 @@
     "lodash" "^4.17.19"
     "to-fast-properties" "^2.0.0"
 
+"@popperjs/core@^2.6.0":
+  "integrity" "sha512-DvJbbn3dUgMxDnJLH+RZQPnXak1h4ZVYQ7CWiFWjQwBFkVajT4rfw2PdpHLTSTwxrYfnoEXkuBiwkDm6tPMQeA=="
+  "resolved" "https://registry.npmjs.org/@popperjs/core/-/core-2.9.1.tgz"
+  "version" "2.9.1"
+
 "accepts@~1.3.7":
   "integrity" "sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA=="
   "resolved" "https://registry.npmjs.org/accepts/-/accepts-1.3.7.tgz"
@@ -71,6 +76,11 @@
     "qs" "6.7.0"
     "raw-body" "2.4.0"
     "type-is" "~1.6.17"
+
+"bootstrap@^5.0.0-beta2":
+  "integrity" "sha512-e+uPbPHqTQWKyCX435uVlOmgH9tUt0xtjvyOC7knhKgOS643BrQKuTo+KecGpPV7qlmOyZgCfaM4xxPWtDEN/g=="
+  "resolved" "https://registry.npmjs.org/bootstrap/-/bootstrap-5.0.0-beta2.tgz"
+  "version" "5.0.0-beta2"
 
 "bytes@3.1.0":
   "integrity" "sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg=="
@@ -309,6 +319,11 @@
   dependencies:
     "call-bind" "^1.0.2"
     "has-symbols" "^1.0.1"
+
+"jade-bootstrap@^1.0.14":
+  "integrity" "sha1-x99tRjinKHKZ3HUXXrUAnzJyEeg="
+  "resolved" "https://registry.npmjs.org/jade-bootstrap/-/jade-bootstrap-1.0.14.tgz"
+  "version" "1.0.14"
 
 "js-stringify@^1.0.2":
   "integrity" "sha1-Fzb939lyTyijaCrcYjCufk6Weds="

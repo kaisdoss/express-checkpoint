@@ -2,12 +2,18 @@ html
    head
       title= "Hello Pug"
       style 
-            include style.css
+         include style.css
 
    body
-      div.header
-         a(href = home) Home
-         br
-         a(href = contactUs) Contact Us
-      div 
-         p.greetings#people Our Services!
+      div.container
+         div.header
+            a(href = home) Home
+            a(href = contactUs) Contact Us
+         h2.greetings Our Services
+         div.content
+            div.article1
+               h3 article 1
+               p
+            div.article2
+               h3 article 2
+               p

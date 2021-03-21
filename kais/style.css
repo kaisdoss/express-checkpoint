@@ -42,14 +42,27 @@ body {
 }
 
 .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
     border: #7CE1F3 1px solid;
     border-top: 0;
     border-bottom: 0;
+    height: calc(100vh - 100px);
+    text-align: center;
+}
+img{
+    width: 300px;
 }
 
+
 .greetings {
-    margin-left: 10px;
-    height: calc(100vh - 100px);
+    padding: 10px 10px 10px 10px;
+    border: #7CE1F3 1px solid;
+    text-align: center;
+    margin: 0;
+    color: rgb(46, 46, 158);
+    
 }
 
 #error_container {
