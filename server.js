@@ -21,7 +21,7 @@ const checkTimeDay = (req, res, next) => {
       break;
     }
   }
-  if (!checkDay && !checkTime) {
+  if (checkDay && checkTime) {
     next();
   } else {
     res
